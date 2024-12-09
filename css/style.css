@@ -1,0 +1,185 @@
+/* body - селектор по тегу 1
+. - селектору по класу 10
+#about me - селектор по id 100*/
+/* ------Створення змінних---- */
+:root{
+    --main-font-size: 18px;
+}
+
+body{
+    margin: 0;
+    font-size: var(--main-font-size);
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    padding: 25px 0;
+    text-align: center;
+} 
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+.menu { 
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; margin: 0; 
+    padding-left: 0; 
+    list-style-type: none;
+}
+
+.menu_link{
+    text-decoration: none;
+    color:#828282;
+}
+   .menu_link:hover { 
+    font-weight: bold;
+}
+
+   .menu_link:hover{
+    color: #070707
+}
+
+   .nav{
+    position: relative;
+   }
+
+   .nav::after { content: '';
+    position: absolute; 
+    bottom: -25px; 
+    left: 0; 
+    width: 100%; 
+    height: 1px; 
+    background: #828282; 
+}
+
+.title_1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+   }
+
+.wrapper-img{
+    width: 100%;
+    height: 388px;
+}
+
+.img{
+    width: 100%;
+}
+
+.about-me{
+    text-align: center;
+    padding: 100px;
+    background: #F6F6F6;
+}
+
+.title_2{
+    font-size: 34px;
+    font-weight:bold;
+    margin-bottom: 50px;
+}
+
+.text{
+    max-width: 470px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.skills{
+    text-align: center;
+    padding: 100px;  
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+        
+}
+
+.icons_container{
+    color: #828282;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 45px;
+    width: 170px;
+    height: 230px;
+    
+
+}
+
+.stars{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.stars_1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.star{
+    padding: 5px;
+}
+
+.portfolio {
+    text-align: center;
+    background: #F6F6F6;
+    padding: 100px;
+}
+
+.text_portfolio{
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.imgs_contacts{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img_contacts{
+    padding: 25px;
+}
+.img_contacts:hover{
+    opacity: 0.5;
+}
+
+.button{
+    margin-top: 60px;
+    background-color:#070707;
+    color:#F6F6F6;
+    border-radius: 22px;
+    width: 180px;
+    height: 44px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.button:hover{
+    color: #070707;
+    background: #F6F6F6;
+}
+
+.contacts{
+    text-align: center;
+    padding: 100px;
+}
+
+.text_link{
+    color:#828282;
+    font-size: 14px;
+    margin-top: 60px;
+}
